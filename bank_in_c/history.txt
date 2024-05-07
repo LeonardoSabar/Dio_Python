@@ -1,0 +1,26 @@
+Name: Luana
+Account number: 171
+Balance: 0
+Transaction type: Create account
+Withdraw limit: 3
+Time: Tue May  7 17:04:48 2024
+
+
+Balance: 10000
+Transaction type: Deposit
+Withdraw limit: 3
+Time: Tue May  7 17:04:55 2024
+
+
+Balance: 9500
+Transaction type: Withdraw
+Withdraw limit: 2
+Time: Tue May  7 17:05:00 2024
+
+
+Balance: 9500
+Transaction type: Check balance
+Withdraw limit: 2
+Time: Tue May  7 17:05:14 2024
+
+
