@@ -25,6 +25,7 @@ def print_history(head):
     temp = head
     while temp:
         print(f"Name: {temp.name}")
+        print("Agency: 0001")
         print(f"Account number: {temp.account_number}")
         print(f"Balance: {temp.balance}")
         print(f"Transaction type: {temp.transaction_type}")
@@ -38,6 +39,7 @@ def store_history_in_file(head):
         temp = head
         while temp:
             file.write(f"Name: {temp.name}\n")
+            file.write("Agency: 0001\n")
             file.write(f"Account number: {temp.account_number}\n")
             file.write(f"Balance: {temp.balance}\n")
             file.write(f"Transaction type: {temp.transaction_type}\n")

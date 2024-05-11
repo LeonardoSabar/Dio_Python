@@ -14,6 +14,8 @@ typedef struct bank
 	struct bank *next;
 } bank;
 
+
+
 void	lst_add_back(bank **head, char name[], int account_number, int balance, char transaction_type[], int withdraw_limit)
 {
 	bank *new_bank = (bank *)malloc(sizeof(bank));
